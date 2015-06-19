@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 setup(
@@ -10,6 +10,7 @@ setup(
     author_email='abogoyavlensky@gmail.com',
     description='Python client for Ponominalu API.',
     platforms='any',
+    packages=find_packages(),
     install_requires=[
         'requests',
     ],
