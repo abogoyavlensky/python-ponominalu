@@ -51,7 +51,6 @@ class BaseAPI(object):
 
         params.update({self.key_param_name: self.key})
         url = os.path.join(self.host, path)
-        print url
         try:
             response = requests.request(method, url, params=params, data=data)
         except Exception as e:

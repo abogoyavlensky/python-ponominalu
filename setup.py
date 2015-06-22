@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='python-ponominalu',
-    version='0.0.1',
+    version='0.0.2',
     url='https://github.com/abogoyavlensky/python-ponominalu',
     license='MIT',
     author='Andrey Bogoyavlensky',
